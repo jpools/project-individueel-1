@@ -26,6 +26,7 @@ nav {
   font-family: lotus-eden, sans-serif;
   font-weight: 600;
   font-style: normal;
+  font-size: 18px;
 }
 nav a {
   text-decoration: none;
@@ -35,25 +36,26 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-direction: column;
-  padding: 1em;
 }
 
 nav li {
-  margin-bottom: 0.5em;
+  margin: 0.5em;
 }
 
 .paars-vlak {
   background-color: #cba2c8;
-  margin: 0.5em;
+  padding: 1em;
+  margin: 1em;
   border-radius: 10px;
+}
+
+.beige-vlak {
+  background-color: #bfac95;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1em;
 }
 
 h1,
@@ -62,25 +64,28 @@ h2 {
   font-weight: 600;
   font-style: normal;
   font-size: x-large;
-  padding: 1em;
+  padding-left: 0.5em;
+  padding-right: 1em;
 }
 
 p {
   font-family: indivisible, sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .natuur-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  border-radius: 10px;
 }
 
 .natuur {
   display: block;
-  width: 48%;
+  width: 45%;
   margin: 1%;
   border-radius: 10px;
 }
@@ -99,9 +104,23 @@ p {
 }
 .landgeitbokken {
   display: block;
+  margin: 1em;
+  border-radius: 10px;
+  max-width: 90%;
+}
+
+.volkstuinpark {
+  display: block;
   margin: auto;
   border-radius: 10px;
   max-width: 90%;
+}
+
+.routes-fotos {
+  display: block;
+  margin: 1em;
+  border-radius: 10px;
+  max-width: 91%;
 }
 
 button {
@@ -114,12 +133,14 @@ button {
 .routes {
   background-color: #59321c;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   cursor: pointer;
-  padding: 1em;
   margin: 1em;
+  margin-right: auto;
+  text-decoration: none;
+  margin-left: 11.5em;
 }
 
 footer {
@@ -127,14 +148,16 @@ footer {
   justify-content: space-between;
   background-color: #8b6341;
   align-items: center;
+  flex-direction: row;
 }
 
 footer p {
   font-size: 8px;
   color: #fff;
   font-weight: 300;
+  white-space: nowrap;
 }
 
 .footerlogo {
-  max-width: 30%;
+  max-width: 65%;
 }
